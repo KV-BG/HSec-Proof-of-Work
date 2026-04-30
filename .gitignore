@@ -1,11 +1,10 @@
-.DS_Store
-.gitignore
-node_modules
-public
-prof
-tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
-private/
-.replit
-replit.nix
+﻿# Ignore all simulation artifacts
+sim/**/work/
+sim/**/*.wlf
+sim/**/*.vcd
+sim/**/transcript
+sim/**/*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
